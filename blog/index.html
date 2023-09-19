@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Management</title>
+   <link href="styles.css" rel="stylesheet">
+        
+</head>
+<body>
+    <header>
+        <h1>Blog Management</h1>
+    </header>
+    <main>
+        <section id="blog-posts">
+            <!-- Blog posts will be displayed here dynamically -->
+        </section>
+        <section id="blog-form">
+            <h2>Create a New Blog Post</h2>
+            <form id="post-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" required>
+                <label for="content">Content:</label>
+                <textarea id="content" required></textarea>
+                <button type="submit">Create Post</button>
+            </form>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
